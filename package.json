@@ -1,0 +1,22 @@
+{
+  "name": "webpack-cheat-sheet",
+  "version": "0.0.1",
+  "description": "cheat sheet for webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev webpack-dev-server",
+    "debug": "NODE_ENV=prod webpack --profile --display-modules --display-reasons",
+    "prod": "NODE_ENV=prod webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.4.8",
+    "exports-loader": "^0.6.2",
+    "imports-loader": "^0.6.5",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
